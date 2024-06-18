@@ -8,7 +8,7 @@
             <img src="{{ icon }}" style="height:1em;width:auto;display:inline-block;margin:0;padding:0;vertical-align:bottom">
         {% endfor %}
     {% endblock %}
-    {{ year }} {% if rights.url %}<a href="{% right.url %}" target="_blank" rel="noopener noreferrer">{{ rights.title }}</a>{% else %}{{ rights.title }}{% endif %}{% if attribution %} &ndash; {{ attribution }}{% endif %}
+    {{ year }} {% if rights.url %}<a href="{% rights.url %}" target="_blank" rel="noopener noreferrer">{{ rights.title }}</a>{% else %}{{ rights.title }}{% endif %}{% if attribution %} &ndash; {{ attribution }}{% endif %}
 </div>
 {% endwith %}
 {% endwith %}
